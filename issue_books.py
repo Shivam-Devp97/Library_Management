@@ -1,4 +1,6 @@
- # ^ ISSUE BOOKS
+from utils import books,issued_books
+
+# ISSUE BOOKS
 def issue_books():
     name=input("Enter the book name: ")
     if name in books:
