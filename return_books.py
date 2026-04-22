@@ -1,4 +1,6 @@
- # ^ RETURN BOOK
+from utils import issued_books,books
+
+# RETURN BOOK
 def return_books():
      name=input("Enter the books name: ")
      if name in issued_books:
